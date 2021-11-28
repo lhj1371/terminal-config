@@ -19,6 +19,8 @@ nnoremap <C-L> :bnext!<Enter>
 
 
 " --------------plugin settings-----------------
+"  Change also ~/.local/share/nvim/plugged/buftabline.nvim/lua/options.lua for
+"  show devicons at tabline
 
 lua << EOF
 require("buftabline").setup {}
